@@ -38,7 +38,7 @@ const Header: React.FC = () => {
 
   return (
     <HeaderContainer>
-      <h1 style={{marginLeft: '30px'}}>Kanban Board</h1>
+      <h1 style={{marginLeft: '30px'}}>Mesmo Teto</h1>
       <NavLinks>
         {user && <Link to="/">Home</Link>}
         {user && <Link to="/dashboard">Dashboard</Link>}
