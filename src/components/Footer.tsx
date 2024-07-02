@@ -16,7 +16,7 @@ const FooterContainer = styled.footer`
 const Footer: React.FC = () => {
     return (
         <FooterContainer>
-            <p>&copy; 2024 Kanban Board. All rights reserved.</p>
+            <p>&copy; 2024 Mesmo Teto. All rights reserved.</p>
         </FooterContainer>
     );
 };
