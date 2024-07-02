@@ -3,7 +3,7 @@ import axios from 'axios';
 import { logout } from './auth';
 
 const api = axios.create({
-    baseURL: 'http://localhost:3000/',
+    baseURL: 'https://home-backend-pe1a.onrender.com/',
 });
 
 export const setAuthToken = (token: string) => {
